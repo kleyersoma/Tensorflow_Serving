@@ -1,0 +1,26 @@
+2019-10-12 12:58:30.404192: I tensorflow_serving/model_servers/server_core.cc:462] Adding/updating models.
+2019-10-12 12:58:30.404245: I tensorflow_serving/model_servers/server_core.cc:561]  (Re-)adding model: fashionmnist_model_serving
+2019-10-12 12:58:30.504933: I tensorflow_serving/core/basic_manager.cc:739] Successfully reserved resources to load servable {name: fashionmnist_model_serving version: 2}
+2019-10-12 12:58:30.505013: I tensorflow_serving/core/loader_harness.cc:66] Approving load for servable version {name: fashionmnist_model_serving version: 2}
+2019-10-12 12:58:30.505049: I tensorflow_serving/core/loader_harness.cc:74] Loading servable version {name: fashionmnist_model_serving version: 2}
+2019-10-12 12:58:30.505188: I external/org_tensorflow/tensorflow/contrib/session_bundle/bundle_shim.cc:363] Attempting to load native SavedModelBundle in bundle-shim from: /home/kleyer/Software_Engineering_Projects/Tensorflow_Serving/tf_saved_models/2
+2019-10-12 12:58:30.505222: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:31] Reading SavedModel from: /home/kleyer/Software_Engineering_Projects/Tensorflow_Serving/tf_saved_models/2
+2019-10-12 12:58:30.592081: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:54] Reading meta graph with tags { serve }
+2019-10-12 12:58:30.604543: I tensorflow_serving/core/basic_manager.cc:739] Successfully reserved resources to load servable {name: fashionmnist_model_serving version: 1}
+2019-10-12 12:58:30.604572: I tensorflow_serving/core/loader_harness.cc:66] Approving load for servable version {name: fashionmnist_model_serving version: 1}
+2019-10-12 12:58:30.604586: I tensorflow_serving/core/loader_harness.cc:74] Loading servable version {name: fashionmnist_model_serving version: 1}
+2019-10-12 12:58:30.604602: I external/org_tensorflow/tensorflow/contrib/session_bundle/bundle_shim.cc:363] Attempting to load native SavedModelBundle in bundle-shim from: /home/kleyer/Software_Engineering_Projects/Tensorflow_Serving/tf_saved_models/1
+2019-10-12 12:58:30.604610: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:31] Reading SavedModel from: /home/kleyer/Software_Engineering_Projects/Tensorflow_Serving/tf_saved_models/1
+2019-10-12 12:58:30.667065: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:54] Reading meta graph with tags { serve }
+2019-10-12 12:58:30.682284: I external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-10-12 12:58:30.930245: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:202] Restoring SavedModel bundle.
+2019-10-12 12:58:30.946733: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:202] Restoring SavedModel bundle.
+2019-10-12 12:58:31.688960: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:311] SavedModel load for tags { serve }; Status: success. Took 1084342 microseconds.
+2019-10-12 12:58:31.689004: I tensorflow_serving/servables/tensorflow/saved_model_warmup.cc:103] No warmup data file found at /home/kleyer/Software_Engineering_Projects/Tensorflow_Serving/tf_saved_models/1/assets.extra/tf_serving_warmup_requests
+2019-10-12 12:58:31.689083: I tensorflow_serving/core/loader_harness.cc:86] Successfully loaded servable version {name: fashionmnist_model_serving version: 1}
+2019-10-12 12:58:31.690562: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:311] SavedModel load for tags { serve }; Status: success. Took 1185340 microseconds.
+2019-10-12 12:58:31.690585: I tensorflow_serving/servables/tensorflow/saved_model_warmup.cc:103] No warmup data file found at /home/kleyer/Software_Engineering_Projects/Tensorflow_Serving/tf_saved_models/2/assets.extra/tf_serving_warmup_requests
+2019-10-12 12:58:31.691283: I tensorflow_serving/core/loader_harness.cc:86] Successfully loaded servable version {name: fashionmnist_model_serving version: 2}
+2019-10-12 12:58:31.694584: I tensorflow_serving/model_servers/server.cc:324] Running gRPC ModelServer at 0.0.0.0:8500 ...
+2019-10-12 12:58:31.696551: I tensorflow_serving/model_servers/server.cc:344] Exporting HTTP/REST API at:localhost:8501 ...
+[evhttp_server.cc : 239] RAW: Entering the event loop ...
